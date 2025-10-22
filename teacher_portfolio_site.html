@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teacher Portfolio | NYC DOE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #004c97;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #003366;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav li {
+      position: relative;
+    }
+    nav a {
+      display: block;
+      padding: 1rem 1.5rem;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #0056b3;
+    }
+    nav ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #003366;
+      min-width: 220px;
+      z-index: 1000;
+    }
+    nav ul li:hover > ul {
+      display: block;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #004c97;
+      padding-bottom: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jazmin Russo | NYC DOE Tenure Portfolio</h1>
+    <p>Instructional Practice • Professional Contributions • Impact on Student Learning</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#instructional">Instructional Practice ▾</a>
+        <ul>
+          <li><a href="#formal">Formal & Informal Observations</a></li>
+          <li><a href="#workproducts">Teacher Work Products</a></li>
+          <li><a href="#reviews">Annual Teacher Reviews</a></li>
+          <li><a href="#motp">MOTP Scores</a></li>
+          <li><a href="#feedback">Feedback from Parents</a></li>
+        </ul>
+      </li>
+      <li><a href="#professional">Professional Contributions ▾</a>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#teacherwork">Work Products</a></li>
+          <li><a href="#certifications">Additional Certifications</a></li>
+          <li><a href="#participation">Teacher Participation</a></li>
+        </ul>
+      </li>
+      <li><a href="#impact">Impact on Student Learning ▾</a>
+        <ul>
+          <li><a href="#studentwork">Student Work Products</a></li>
+          <li><a href="#portfolios">Portfolios</a></li>
+          <li><a href="#nysaa">NYSAA Scores</a></li>
+        </ul>
+      </li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="instructional">
+      <h2>Instructional Practice</h2>
+      <p>Evidence of instructional growth, classroom practices, and student engagement.</p>
+      <div id="formal"><h3>Formal and Informal Observations</h3><p>Upload or link observation summaries and feedback.</p></div>
+      <div id="workproducts"><h3>Teacher Work Products</h3><p>Include lesson plans, student-facing materials, or unit plans.</p></div>
+      <div id="reviews"><h3>Annual Teacher Reviews</h3><p>Attach yearly reflections or evaluations.</p></div>
+      <div id="motp"><h3>MOTP Scores</h3><p>Document MOTP ratings and trends over time.</p></div>
+      <div id="feedback"><h3>Feedback from Parents</h3><p>Include quotes or scanned letters from parents.</p></div>
+    </section>
+
+    <section id="professional">
+      <h2>Professional Contributions</h2>
+      <div id="attendance"><h3>Attendance</h3><p>Record of consistent attendance and punctuality.</p></div>
+      <div id="teacherwork"><h3>Work Products</h3><p>Additional artifacts showing collaboration or leadership.</p></div>
+      <div id="certifications"><h3>Additional Certifications</h3><p>List or attach copies of certificates.</p></div>
+      <div id="participation"><h3>Teacher Participation</h3><p>Document participation in PD, committees, or school initiatives.</p></div>
+    </section>
+
+    <section id="impact">
+      <h2>Impact on Student Learning</h2>
+      <div id="studentwork"><h3>Student Work Products</h3><p>Upload student essays, projects, or assessments (with permission).</p></div>
+      <div id="portfolios"><h3>Portfolios</h3><p>Showcase examples of student growth over time.</p></div>
+      <div id="nysaa"><h3>NYSAA Scores</h3><p>Summarize data showing progress and outcomes.</p></div>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <p>Moments of teaching, collaboration, and student learning.</p>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200" alt="Classroom photo">
+        <img src="https://via.placeholder.com/300x200" alt="Student project">
+        <img src="https://via.placeholder.com/300x200" alt="School event">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
